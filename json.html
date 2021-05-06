@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>  
+        <meta charset="UTF-8">
+        <meta name="viewport" content="Width=device-width,initial-scale=1.0">
+        <meta http-equiv="X-UA-compatable" content="ie=edge">
+        <title>json 1- Textfile</title>  
+    </head>
+    <body>
+        <button type="github">get github</button>
+        <br>
+        <br>
+        <h1>git hub users</h1>
+        <div id="users"></div>
+
+        <script>
+            document.getElementById('github').innerHTML= "the href of the first link is " + document.links[0].href;
+            function openwin(){
+              
+                window.open("https://api.github.com/users");
+               // xhr.onload = function(){
+                 //   if(this.status == 200){
+                   //     console.log(this.responseText);
+                    //var users = JSON.parse(this.responseText);
+                      // var output = '';
+                        //for(var i in users){
+                          //   output += 
+                            // '<div class="user">'+
+                              //'<img src="'+users[i].avatar_url+'" width="70" height="70">' +
+                              //'<ul>' +
+                             //   '<li>id:'+users[i].id+'</li>'+
+                             //   '<li>login:'+users[i].login+'</li>' +
+                             //   '</ul>' +
+                             //   '</div>';
+
+                           
+                
+                //document.getelementbyid('users').innerHTML = output;
+            }
+        
+      
+    
+        </script>
+    </body> 
+
+</html>   
+
